@@ -1,7 +1,9 @@
 ## Hola a Todos 👋
 ### 🔭 I’m currently working on Web scraper Youtube
 Where to find me
-https://www.linkedin.com/in/miltonquinonez/
+- [Linkedin]https://www.linkedin.com/in/miltonquinonez/
+
+- 🌱 I’m currently learning about Data Scientist | Data Analst
 
 <!--
 **Milton-RQM/Milton-RQM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

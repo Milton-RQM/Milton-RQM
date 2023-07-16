@@ -1,7 +1,7 @@
 ## Hola a Todos 👋
 ### 🔭 I’m currently working on Web scraper Youtube
 Where to find me
-- [Linkedin]https://www.linkedin.com/in/miltonquinonez/
+- [Linkedin](https://www.linkedin.com/in/miltonquinonez/)
 
 - 🌱 I’m currently learning about Data Scientist | Data Analst
 

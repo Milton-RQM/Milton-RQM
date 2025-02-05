@@ -114,35 +114,27 @@
       background-color: #0f2027;
     }
 
-    /* Sección de Skills */
     .skills-bar {
+      /*width: 80%;*/
       background-color: #1b262c;
       margin: 0.5rem auto;
       border-radius: 10px;
       overflow: hidden;
-      width: 80%;
-      position: relative;
     }
 
     .skills-bar-fill {
       height: 20px;
       background-color: var(--primary-dark);
       width: 0;
-      /* Usamos la variable --target-width para definir el porcentaje final */
       animation: fill-bar 2s forwards;
-      display: flex;
-      align-items: center;
-      padding-left: 0.5rem;
-      box-sizing: border-box;
     }
 
     @keyframes fill-bar {
       from {
         width: 0;
       }
-      /* Se anima hasta el valor definido en --target-width */
       to {
-        width: var(--target-width);
+        width: 50%;
       }
     }
   </style>
@@ -190,23 +182,21 @@
       <div class="resume-entry">
         <h3>Education</h3>
         <p>Technological University Ecotec | Master’s Degree in Information Systems and Business Intelligence (2020-2022)</p>
-        <p>Technical University of Babahoyo | Bachelor’s Degree in Systems Engineering (2013 - 2019)</p>
+        <p>Technical University of Babahoyo | Bachelor’s Degree in Systems Engineering (2013 - 2019) </p>
       </div>
       <div class="resume-entry">
         <h3>Skills</h3>
-        <!-- Cada barra usa --target-width para definir su porcentaje final -->
         <div class="skills-bar">
-          <div class="skills-bar-fill" style="--target-width: 90%;">JavaScript</div>
+          <div class="skills-bar-fill" style="width: 90%;">JavaScript</div>
         </div>
         <div class="skills-bar">
-          <div class="skills-bar-fill" style="--target-width: 80%;">Python</div>
+          <div class="skills-bar-fill" style="width: 80%;">Python</div>
         </div>
         <div class="skills-bar">
-          <div class="skills-bar-fill" style="--target-width: 70%;">Snowflake ❄️</div>
+          <div class="skills-bar-fill" style="width: 70%;"> Snowflake: ❄️  </div>
         </div>
-        <!-- Si deseas incluir otro skill, verifica que no sea duplicado o cámbialo por otro -->
         <div class="skills-bar">
-          <div class="skills-bar-fill" style="--target-width: 80%;">SQL</div>
+          <div class="skills-bar-fill" style="width: 80%;"> Python: 🐍 </div>
         </div>
       </div>
     </div>
@@ -230,7 +220,7 @@
         <div class="project-card">
           <h3>Snowflake Data Ingestion and Transformation</h3>
           <p>Description of the project and technologies used.</p>
-          <a href="project3.html" class="button">View Details</a>
+          <a href="project2.html" class="button">View Details</a>
         </div>
       </div>
     </div>
@@ -250,7 +240,7 @@
   </section>
 
   <script>
-    // Smooth scroll functionality
+    // Add smooth scroll functionality
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
